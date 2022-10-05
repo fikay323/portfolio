@@ -1,0 +1,26 @@
+@media (max-width:1070px) {
+    .first {
+        flex-direction: column;
+        /* padding: 30px; */
+    }
+    .first .left {
+        width: 100%;
+    }
+    .first .right {
+        width: 80vw;
+        margin: 10px auto;
+    }
+}
+@media (max-width:1070px) {
+    .first .left2 {
+        display: block;
+    }
+    .first .left3 {
+        display: none;
+    }
+}
+@media (max-width:600px) {
+    .first .right {
+        display: none;
+    }
+}

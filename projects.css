@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    user-select: none;
+}
+.first {
+    display: flex;
+    width: 100vw;
+}
+
+.firi {
+    margin-bottom: 30px;
+}
+
+.fir {
+    background-color: #edf6fd;
+}
+
+.first .left {
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* padding-inline-start: 20px; */
+}
+
+.first .left h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.first .left h4 {
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.first .left p {
+    font-weight: 600;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.first .left p a {
+    text-decoration: none;
+    color: rgb(67, 120, 255);
+}
+.first .left2 {
+    display: none;
+}
+
+.first .right {
+    width: 50%;
+    height: 50vh;
+    background-image: url(/img/italrest.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.first iframe {
+    width: 100%;
+    height: 100%;
+}

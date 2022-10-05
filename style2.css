@@ -1,0 +1,98 @@
+@media (max-width:1180px) {
+    .image h1 {
+        font-size: 62px;
+    }
+    .extra h5 {
+        font-size: 25px;
+    }
+    .extra p {
+        font-size: 22px;
+    }
+}
+@media (max-width:980px) {
+    .image {
+        background-attachment: scroll;
+        height: 85vh;
+    }
+    .image h1 {
+        font-size: 50px;
+    }
+    .extra {
+        height: 95vh;
+    }
+    .extra h5 {
+        font-size: 20px;
+    }
+    .extra p {
+        font-size: 18px;
+    }
+}
+@media (max-width:800px) {
+    .image {
+        background-attachment: scroll;
+        height: 60vh;
+    }
+    .image h1 {
+        font-size: 40px;
+    }
+    .image h1 {
+        font-size: 40px;
+    }
+    .extra h5 {
+        font-size: 17px;
+    }
+    .extra p {
+        font-size: 15px;
+    }
+    .extra .absolut {
+        font-size: 15px;
+    }
+    .credit {
+        display: none;
+    }
+}
+@media (max-width:690px) {
+    .br {
+        display: block;
+    }
+}
+@media (max-width:590px) {
+    .image h1 {
+        font-size: 30px;
+    }
+    .image p {
+        font-size: 20px;
+    }
+    .extra .absolut a {
+        display: inline-block;
+    }
+}
+@media (max-width:471px) {
+    .extra .absolut {
+        font-size: 13px;
+        left: 5%;
+        text-align: left;
+    }
+    .image h1 {
+        font-size: 25px;
+    }
+    .image p {
+        font-size: 20px;
+    }
+    .extra h5 {
+        font-size: 15px;
+    }
+    .extra p {
+        font-size: 13px;
+    }
+    .abs {
+        font-size: 13px;
+        margin:20px;
+        transform: translateX(10px);
+    }
+}
+@media (max-width:420px) {
+    footer .email {
+        display: none;
+    }
+}
